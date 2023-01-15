@@ -90,7 +90,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-logo ="""\033[1;93m
+logo ="""\033[1;32m
  _____ _    _       _______                   
   / ____| |  | |     |__   __|                  
  | (___ | | _| |__      | | ___  __ _ _ __ ___  
@@ -191,11 +191,11 @@ def xr():
         print('\033[1;32m[■]USE AEROPLANE MOOD IN EVERY 5 MIN ')
         print('\033[1;37m[■]============================================')
         for love in user:
-            pwx = [love[1:]]
-            uid = code+love
+            pwx = []
+            uid =
             for Eman in RimonID:
-                pwx.append(Eman)
-                pwx.append(love)
+                pwx.append()
+                pwx.append()
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;32m[■]============================================')
     print('Crack process has been completed')
