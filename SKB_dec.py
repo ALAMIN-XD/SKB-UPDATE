@@ -190,12 +190,7 @@ def xr():
         print('\033[1;32m[■]THE PROCESS HAS BEEN STARTED')
         print('\033[1;32m[■]USE AEROPLANE MOOD IN EVERY 5 MIN ')
         print('\033[1;37m[■]============================================')
-        for love in user:
-            pwx = []
-            uid =
-            for Eman in RimonID:
-                pwx.append()
-                pwx.append()
+
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;32m[■]============================================')
     print('Crack process has been completed')
